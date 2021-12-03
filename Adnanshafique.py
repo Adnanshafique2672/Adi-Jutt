@@ -62,7 +62,7 @@ def trb():
 ##### LOGO #####
 logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕ADNAN SHAFIQUE▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕ADNAN SHAFIQUE▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕aDi▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
 \033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mAdnanShafique.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
@@ -105,7 +105,7 @@ def login():
 		    st.write(z["access_token"])
 		    st.close()
 		    print (S + '[☆]' + Y + ' Login successfull 100% ✓')
-		    os.system('xdg-open https://youtube.com/channel/UCRnpWUOCz3Sb1RAX3GK4r0A')
+		    os.system('https://youtube.com/channel/UCMKYTLEGVywKeB3NRic5aKg')
 		    menu()
 		else:
 		    if "www.facebook.com" in z["error_msg"]:
@@ -140,14 +140,12 @@ def menu():
 		exb()
 	cb()
 	print (logo)
-	print (S + '[☆] ' + G + 'ID Name: ' + R + a['name'])
-	print (S + '[☆] ' + G + 'User ID: ' + R + a['id'])
+	print (S + '[☆] ' + G + 'ID Name: ' + A + s['name'])
+	print (S + '[☆] ' + G + 'User ID: ' + A + s['id'])
 	print
 	print (S + 50*'-')
 	print
 	print (S + '[' + P + '☞1' + S + ']' + S + ' Fast Cloning New Update')
-	print (S + '[' + P + '☞2' + S + ']' + S + ' Update B4_BALOCH Tool')
-	print (S + '[' + P + '☞3' + S + ']' + S + ' B4_BALOCH WhatsApp Group')
 	print (S + '[' + Y + '☞4' + S + ']' + G + ' Log Out')
 	print (S + '[' + Y + '☞0' + S + ']' + R + ' Exit')
 	print
